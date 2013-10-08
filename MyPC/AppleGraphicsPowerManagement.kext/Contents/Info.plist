@@ -4610,7 +4610,7 @@
 				</dict>
 				<key>iMac12,1</key>
 				<dict>
-					<key>GFX0</key>
+					<key>Vendor10deDevice0e22</key>
 					<dict>
 						<key>BoostPState</key>
 						<array>
@@ -4631,29 +4631,35 @@
 							<key>ID</key>
 							<integer>0</integer>
 							<key>IdleInterval</key>
-							<integer>100</integer>
+							<integer>250</integer>
+							<key>SensorOption</key>
+							<integer>1</integer>
+							<key>SensorSampleRate</key>
+							<integer>4</integer>
 							<key>TargetCount</key>
 							<integer>5</integer>
 							<key>Threshold_High</key>
 							<array>
-								<integer>80</integer>
-								<integer>80</integer>
-								<integer>80</integer>
-								<integer>100</integer>
+								<integer>70</integer>
+								<integer>95</integer>
+								<integer>110</integer>
+								<integer>190</integer>
 							</array>
 							<key>Threshold_Low</key>
 							<array>
 								<integer>0</integer>
+								<integer>60</integer>
 								<integer>90</integer>
-								<integer>90</integer>
-								<integer>90</integer>
+								<integer>190</integer>
 							</array>
 						</dict>
 						<key>control-id</key>
 						<integer>17</integer>
 					</dict>
+					<key>default-control-id</key>
+					<integer>17</integer>
 					<key>LogControl</key>
-					<integer>0</integer>
+					<integer>1</integer>
 				</dict>
 				<key>iMac12,2</key>
 				<dict>
