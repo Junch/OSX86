@@ -4659,7 +4659,7 @@
 					<key>default-control-id</key>
 					<integer>17</integer>
 					<key>LogControl</key>
-					<integer>1</integer>
+					<integer>0</integer>
 				</dict>
 				<key>iMac12,2</key>
 				<dict>
