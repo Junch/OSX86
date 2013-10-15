@@ -4063,81 +4063,79 @@
 				</dict>
 				<key>MacBookPro8,3</key>
 				<dict>
-					<key>GFX0</key>
+					<key>Vendor10deDevice0e22</key>
 					<dict>
-						<key>QSC</key>
+						<key>BoostPState</key>
+						<array>
+							<integer>0</integer>
+							<integer>1</integer>
+							<integer>2</integer>
+							<integer>3</integer>
+						</array>
+						<key>BoostTime</key>
+						<array>
+							<integer>3</integer>
+							<integer>3</integer>
+							<integer>3</integer>
+							<integer>3</integer>
+						</array>
+						<key>Heuristic</key>
 						<dict>
-							<key>Enabled</key>
+							<key>ID</key>
+							<integer>0</integer>
+							<key>IdleInterval</key>
+							<integer>100</integer>
+							<key>SensorOption</key>
 							<integer>1</integer>
-							<key>Mode</key>
-							<integer>1</integer>
-							<key>hwPState</key>
+							<key>SensorSampleRate</key>
+							<integer>4</integer>
+							<key>TargetCount</key>
+							<integer>5</integer>
+							<key>Threshold_High</key>
 							<array>
-								<integer>0</integer>
-								<integer>0</integer>
-								<integer>1</integer>
-								<integer>1</integer>
-								<integer>1</integer>
-								<integer>1</integer>
-								<integer>1</integer>
-								<integer>1</integer>
-								<integer>2</integer>
+								<integer>80</integer>
+								<integer>80</integer>
+								<integer>80</integer>
+								<integer>100</integer>
 							</array>
-							<key>qscOnTime</key>
+							<key>Threshold_Low</key>
 							<array>
 								<integer>0</integer>
-								<integer>1440</integer>
-								<integer>0</integer>
-								<integer>2400</integer>
-								<integer>4000</integer>
-								<integer>5760</integer>
-								<integer>7680</integer>
-								<integer>9760</integer>
-								<integer>0</integer>
+								<integer>90</integer>
+								<integer>90</integer>
+								<integer>90</integer>
 							</array>
 						</dict>
 						<key>control-id</key>
 						<integer>17</integer>
-						<key>max-power-state</key>
-						<integer>8</integer>
 					</dict>
-					<key>IGPU</key>
-					<dict>
-						<key>Heuristic</key>
-						<dict>
-							<key>BusyDownThresholdPercent</key>
-							<integer>70</integer>
-							<key>BusyUpThresholdPercent</key>
-							<integer>90</integer>
-							<key>DiagnosticModeDefault</key>
-							<integer>0</integer>
-							<key>EvaluateDownInterval</key>
-							<integer>350000</integer>
-							<key>EvaluateUpInterval</key>
-							<integer>66000</integer>
-							<key>ID</key>
-							<integer>2</integer>
-							<key>SensorOption</key>
-							<integer>1</integer>
-						</dict>
-						<key>control-id</key>
-						<integer>16</integer>
-						<key>max-power-state</key>
-						<integer>15</integer>
-						<key>min-power-state</key>
-						<integer>0</integer>
-					</dict>
+					<key>LogControl</key>
+					<integer>1</integer>
 				</dict>
 				<key>MacPro4,1</key>
 				<dict>
-					<key>Vendor10deDevice05e2</key>
+					<key>Vendor10deDevice0e22</key>
 					<dict>
+						<key>BoostPState</key>
+						<array>
+							<integer>0</integer>
+							<integer>1</integer>
+							<integer>2</integer>
+							<integer>3</integer>
+						</array>
+						<key>BoostTime</key>
+						<array>
+							<integer>3</integer>
+							<integer>3</integer>
+							<integer>3</integer>
+							<integer>3</integer>
+						</array>
 						<key>Heuristic</key>
 						<dict>
 							<key>ID</key>
 							<integer>0</integer>
 							<key>IdleInterval</key>
-							<integer>250</integer>
+							<integer>100</integer>
 							<key>SensorOption</key>
 							<integer>1</integer>
 							<key>SensorSampleRate</key>
@@ -4146,71 +4144,37 @@
 							<integer>5</integer>
 							<key>Threshold_High</key>
 							<array>
-								<integer>87</integer>
-								<integer>87</integer>
-								<integer>87</integer>
+								<integer>80</integer>
+								<integer>80</integer>
+								<integer>80</integer>
 								<integer>100</integer>
 							</array>
 							<key>Threshold_Low</key>
 							<array>
 								<integer>0</integer>
-								<integer>87</integer>
-								<integer>87</integer>
-								<integer>87</integer>
+								<integer>90</integer>
+								<integer>90</integer>
+								<integer>90</integer>
 							</array>
 						</dict>
-						<key>LogControl</key>
-						<integer>0</integer>
 						<key>control-id</key>
 						<integer>18</integer>
 					</dict>
-					<key>Vendor10deDevice0640</key>
-					<dict>
-						<key>Heuristic</key>
-						<dict>
-							<key>ID</key>
-							<integer>0</integer>
-							<key>IdleInterval</key>
-							<integer>250</integer>
-							<key>SensorOption</key>
-							<integer>1</integer>
-							<key>SensorSampleRate</key>
-							<integer>4</integer>
-							<key>TargetCount</key>
-							<integer>5</integer>
-							<key>Threshold_High</key>
-							<array>
-								<integer>88</integer>
-								<integer>88</integer>
-								<integer>88</integer>
-								<integer>100</integer>
-							</array>
-							<key>Threshold_Low</key>
-							<array>
-								<integer>0</integer>
-								<integer>95</integer>
-								<integer>95</integer>
-								<integer>95</integer>
-							</array>
-						</dict>
-						<key>LogControl</key>
-						<integer>0</integer>
-						<key>control-id</key>
-						<integer>18</integer>
-					</dict>
+					<key>LogControl</key>
+					<integer>1</integer>
 					<key>default-control-id</key>
 					<integer>18</integer>
 				</dict>
 				<key>MacPro5,1</key>
 				<dict>
-					<key>Vendor10deDevice05e2</key>
+					<key>Vendor10deDevice0e22</key>
 					<dict>
 						<key>Heuristic</key>
 						<dict>
 							<key>ID</key>
 							<integer>0</integer>
 							<key>IdleInterval</key>
-							<integer>250</integer>
+							<integer>100</integer>
 							<key>SensorOption</key>
 							<integer>1</integer>
 							<key>SensorSampleRate</key>
@@ -4219,58 +4183,24 @@
 							<integer>5</integer>
 							<key>Threshold_High</key>
 							<array>
-								<integer>87</integer>
-								<integer>87</integer>
-								<integer>87</integer>
+								<integer>80</integer>
+								<integer>80</integer>
+								<integer>80</integer>
 								<integer>100</integer>
 							</array>
 							<key>Threshold_Low</key>
 							<array>
 								<integer>0</integer>
-								<integer>87</integer>
-								<integer>87</integer>
-								<integer>87</integer>
+								<integer>90</integer>
+								<integer>90</integer>
+								<integer>90</integer>
 							</array>
 						</dict>
-						<key>LogControl</key>
-						<integer>0</integer>
 						<key>control-id</key>
 						<integer>18</integer>
 					</dict>
-					<key>Vendor10deDevice0640</key>
-					<dict>
-						<key>Heuristic</key>
-						<dict>
-							<key>ID</key>
-							<integer>0</integer>
-							<key>IdleInterval</key>
-							<integer>250</integer>
-							<key>SensorOption</key>
-							<integer>1</integer>
-							<key>SensorSampleRate</key>
-							<integer>4</integer>
-							<key>TargetCount</key>
-							<integer>5</integer>
-							<key>Threshold_High</key>
-							<array>
-								<integer>93</integer>
-								<integer>93</integer>
-								<integer>93</integer>
-								<integer>100</integer>
-							</array>
-							<key>Threshold_Low</key>
-							<array>
-								<integer>0</integer>
-								<integer>97</integer>
-								<integer>97</integer>
-								<integer>97</integer>
-							</array>
-						</dict>
-						<key>LogControl</key>
-						<integer>0</integer>
-						<key>control-id</key>
-						<integer>18</integer>
-					</dict>
+					<key>LogControl</key>
+					<integer>1</integer>
 					<key>default-control-id</key>
 					<integer>18</integer>
 				</dict>
@@ -4656,96 +4586,59 @@
 						<key>control-id</key>
 						<integer>17</integer>
 					</dict>
-					<key>default-control-id</key>
-					<integer>17</integer>
 					<key>LogControl</key>
-					<integer>0</integer>
+					<integer>1</integer>
 				</dict>
 				<key>iMac12,2</key>
 				<dict>
-					<key>Vendor1002Device6720</key>
+					<key>Vendor10deDevice0e22</key>
 					<dict>
-						<key>QSC</key>
+						<key>BoostPState</key>
+						<array>
+							<integer>0</integer>
+							<integer>1</integer>
+							<integer>2</integer>
+							<integer>3</integer>
+						</array>
+						<key>BoostTime</key>
+						<array>
+							<integer>3</integer>
+							<integer>3</integer>
+							<integer>3</integer>
+							<integer>3</integer>
+						</array>
+						<key>Heuristic</key>
 						<dict>
-							<key>Enabled</key>
+							<key>ID</key>
+							<integer>0</integer>
+							<key>IdleInterval</key>
+							<integer>100</integer>
+							<key>SensorOption</key>
 							<integer>1</integer>
-							<key>Mode</key>
-							<integer>1</integer>
-							<key>hwPState</key>
+							<key>SensorSampleRate</key>
+							<integer>4</integer>
+							<key>TargetCount</key>
+							<integer>5</integer>
+							<key>Threshold_High</key>
 							<array>
-								<integer>0</integer>
-								<integer>0</integer>
-								<integer>0</integer>
-								<integer>1</integer>
-								<integer>1</integer>
-								<integer>1</integer>
-								<integer>1</integer>
-								<integer>1</integer>
-								<integer>2</integer>
+								<integer>80</integer>
+								<integer>80</integer>
+								<integer>80</integer>
+								<integer>100</integer>
 							</array>
-							<key>qscOnTime</key>
+							<key>Threshold_Low</key>
 							<array>
 								<integer>0</integer>
-								<integer>960</integer>
-								<integer>2400</integer>
-								<integer>0</integer>
-								<integer>2560</integer>
-								<integer>5280</integer>
-								<integer>8000</integer>
-								<integer>10560</integer>
-								<integer>0</integer>
+								<integer>90</integer>
+								<integer>90</integer>
+								<integer>90</integer>
 							</array>
 						</dict>
 						<key>control-id</key>
 						<integer>17</integer>
-						<key>max-power-state</key>
-						<integer>8</integer>
 					</dict>
-					<key>Vendor1002Device6722</key>
-					<dict>
-						<key>QSC</key>
-						<dict>
-							<key>Enabled</key>
-							<integer>1</integer>
-							<key>Mode</key>
-							<integer>1</integer>
-							<key>hwPState</key>
-							<array>
-								<integer>0</integer>
-								<integer>0</integer>
-								<integer>0</integer>
-								<integer>1</integer>
-								<integer>1</integer>
-								<integer>1</integer>
-								<integer>1</integer>
-								<integer>1</integer>
-								<integer>2</integer>
-							</array>
-							<key>qscOnTime</key>
-							<array>
-								<integer>0</integer>
-								<integer>960</integer>
-								<integer>2400</integer>
-								<integer>0</integer>
-								<integer>2560</integer>
-								<integer>5280</integer>
-								<integer>8000</integer>
-								<integer>10560</integer>
-								<integer>0</integer>
-							</array>
-						</dict>
-						<key>control-id</key>
-						<integer>17</integer>
-						<key>max-power-state</key>
-						<integer>8</integer>
-					</dict>
-					<key>Vendor1002Device6740</key>
-					<dict>
-						<key>control-id</key>
-						<integer>17</integer>
-						<key>max-power-state</key>
-						<integer>2</integer>
-					</dict>
+					<key>LogControl</key>
+					<integer>1</integer>
 				</dict>
 				<key>iMac9,1</key>
 				<dict>
