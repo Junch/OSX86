@@ -3,21 +3,21 @@
  * AML Disassembler version 20110112-32 [Jan 13 2011]
  * Copyright (c) 2000 - 2011 Intel Corporation
  * 
- * Disassembly of ./dsdt.aml, Mon Oct 21 05:49:06 2013
+ * Disassembly of ./dsdt.aml, Tue Oct 22 10:58:09 2013
  *
  * Original Table Header:
  *     Signature        "DSDT"
- *     Length           0x000081DD (33245)
+ *     Length           0x00008240 (33344)
  *     Revision         0x02
- *     Checksum         0xDF
- *     OEM ID           "Apple "
+ *     Checksum         0x18
+ *     OEM ID           "ALASKA"
  *     OEM Table ID     "A M I"
  *     OEM Revision     0x00000000 (0)
  *     Compiler ID      "INTL"
  *     Compiler Version 0x20110112 (537985298)
  */
 
-DefinitionBlock ("./dsdt.aml", "DSDT", 2, "Apple ", "A M I", 0x00000000)
+DefinitionBlock ("./dsdt.aml", "DSDT", 2, "ALASKA", "A M I", 0x00000000)
 {
     Name (SP1O, 0x2E)
     Name (IO1B, Zero)
@@ -3836,6 +3836,36 @@ DefinitionBlock ("./dsdt.aml", "DSDT", 2, "Apple ", "A M I", 0x00000000)
                 Method (_PRW, 0, NotSerialized)
                 {
                     Return (GPRW (0x09, 0x04))
+                }
+            }
+
+            Device (HDEF)
+            {
+                Name (_ADR, 0x001B0000)
+                Method (_PRW, 0, NotSerialized)
+                {
+                    Return (Package (0x02)
+                    {
+                        0x0D, 
+                        0x05
+                    })
+                }
+
+                Method (_DSM, 4, NotSerialized)
+                {
+                    Store (Package (0x04)
+                        {
+                            "layout-id", 
+                            Buffer (0x04)
+                            {
+                                0x7C, 0x03, 0x00, 0x00
+                            }, 
+
+                            "PinConfigurations", 
+                            Buffer (Zero) {}
+                        }, Local0)
+                    DTGP (Arg0, Arg1, Arg2, Arg3, RefOf (Local0))
+                    Return (Local0)
                 }
             }
 
