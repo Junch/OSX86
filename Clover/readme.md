@@ -42,3 +42,10 @@
                 }
             }
 
+===
+参考： 
+
+* [http://www.tonymacx86.com](http://www.tonymacx86.com)
+* [http://www.osx86.net](http://www.osx86.net)
+* [http://www.insanelymac.com](http://www.insanelymac.com)
+* [http://bbs.pcbeta.com](http://bbs.pcbeta.com)
