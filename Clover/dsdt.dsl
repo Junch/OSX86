@@ -3858,7 +3858,7 @@ DefinitionBlock ("./dsdt.aml", "DSDT", 2, "ALASKA", "A M I", 0x00000000)
                             "layout-id", 
                             Buffer (0x04)
                             {
-                                0x7C, 0x03, 0x00, 0x00
+                                0x01, 0x00, 0x00, 0x00
                             }, 
 
                             "PinConfigurations", 
