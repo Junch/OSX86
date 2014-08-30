@@ -4591,39 +4591,19 @@
 				</dict>
 				<key>iMac12,2</key>
 				<dict>
-					<key>Vendor10deDevice0e22</key>
+					<key>Vendor10deDevice0659</key>
 					<dict>
-						<key>BoostPState</key>
-						<array>
-							<integer>0</integer>
-							<integer>1</integer>
-							<integer>2</integer>
-							<integer>3</integer>
-						</array>
-						<key>BoostTime</key>
-						<array>
-							<integer>3</integer>
-							<integer>3</integer>
-							<integer>3</integer>
-							<integer>3</integer>
-						</array>
 						<key>Heuristic</key>
 						<dict>
 							<key>ID</key>
 							<integer>0</integer>
 							<key>IdleInterval</key>
 							<integer>100</integer>
-							<key>SensorOption</key>
-							<integer>1</integer>
-							<key>SensorSampleRate</key>
-							<integer>4</integer>
-							<key>TargetCount</key>
-							<integer>5</integer>
 							<key>Threshold_High</key>
 							<array>
-								<integer>80</integer>
-								<integer>80</integer>
-								<integer>80</integer>
+								<integer>70</integer>
+								<integer>70</integer>
+								<integer>70</integer>
 								<integer>100</integer>
 							</array>
 							<key>Threshold_Low</key>
@@ -4631,7 +4611,7 @@
 								<integer>0</integer>
 								<integer>90</integer>
 								<integer>90</integer>
-								<integer>90</integer>
+								<integer>80</integer>
 							</array>
 						</dict>
 						<key>control-id</key>
