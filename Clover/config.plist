@@ -10,6 +10,13 @@
 			<false/>
 			<key>DropOEM_DSM</key>
 			<false/>
+			<key>Fixes</key>
+			<dict>
+				<key>FixLAN_2000</key>
+				<true/>
+				<key>FixShutdown_0004</key>
+				<true/>
+			</dict>
 			<key>Name</key>
 			<string>DSDT.aml</string>
 			<key>ReuseFFFF</key>
@@ -19,25 +26,33 @@
 		<array>
 			<dict>
 				<key>Signature</key>
+				<string>SSDT</string>
+				<key>TableId</key>
+				<string>CpuPm</string>
+			</dict>
+			<dict>
+				<key>Signature</key>
 				<string>DMAR</string>
 			</dict>
 			<dict>
 				<key>Signature</key>
 				<string>SSDT</string>
 				<key>TableId</key>
-				<string>CpuPm</string>
+				<string>Cpu0Ist</string>
 			</dict>
 		</array>
+		<key>HaltEnabler</key>
+		<true/>
 		<key>SSDT</key>
 		<dict>
 			<key>DropOem</key>
-			<true/>
+			<false/>
 			<key>Generate</key>
 			<dict>
 				<key>CStates</key>
-				<false/>
+				<true/>
 				<key>PStates</key>
-				<false/>
+				<true/>
 			</dict>
 			<key>MinMultiplier</key>
 			<integer>8</integer>
@@ -50,7 +65,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>slide=0 dart=0</string>
+		<string>slide=0 kext-dev-mode=1</string>
 		<key>DefaultVolume</key>
 		<string>Mac</string>
 		<key>Legacy</key>
@@ -93,7 +108,7 @@
 			<key>AddClockID</key>
 			<true/>
 			<key>FixOwnership</key>
-			<false/>
+			<true/>
 			<key>Inject</key>
 			<true/>
 		</dict>
@@ -109,26 +124,28 @@
 			<string>Windows</string>
 			<string>\EFI\BOOT\BOOTX64.EFI</string>
 		</array>
+		<key>Language</key>
+		<string>zh_CN:0</string>
 		<key>Mouse</key>
 		<dict>
 			<key>Enabled</key>
 			<false/>
 			<key>Mirror</key>
 			<false/>
+			<key>Speed</key>
+			<integer>0</integer>
 		</dict>
 		<key>Scan</key>
 		<dict>
 			<key>Entries</key>
 			<true/>
 			<key>Legacy</key>
-			<string>First</string>
+			<true/>
 			<key>Tool</key>
 			<true/>
 		</dict>
-		<key>ScreenResolution</key>
-		<string>1920x1080</string>
 		<key>Theme</key>
-		<string>bootcamp</string>
+		<string>bluemac</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -141,8 +158,6 @@
 			<key>NVidia</key>
 			<true/>
 		</dict>
-		<key>LoadVBios</key>
-		<true/>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
@@ -181,6 +196,13 @@
 	<dict>
 		<key>Trust</key>
 		<false/>
+	</dict>
+	<key>SystemParameters</key>
+	<dict>
+		<key>InjectKexts</key>
+		<string>Detect</string>
+		<key>InjectSystemID</key>
+		<true/>
 	</dict>
 </dict>
 </plist>
