@@ -1,0 +1,628 @@
+Secondary System Description Table: 0x00000000DE64F798
+
+53 53 44 54 92 0A 00 00 01 78 50 6D 52 65 66 00	SSDT.....xPmRef.
+43 70 75 50 6D 00 00 00 00 30 00 00 49 4E 54 4C	CpuPm....0..INTL
+17 11 05 20 10 46 0C 5C 00 08 53 53 44 54 12 43	... .F.\..SSDT.C
+05 0C 0D 43 50 55 30 49 53 54 20 00 0C 18 A0 8C	...CPU0IST .....
+DC 0C AA 09 00 00 0D 41 50 49 53 54 20 20 20 00	.......APIST   .
+0C 98 6A 66 DE 0C 03 03 00 00 0D 43 50 55 30 43	..jf.......CPU0C
+53 54 20 00 0C 18 50 66 DE 0C 3B 08 00 00 0D 41	ST ...Pf..;....A
+50 43 53 54 20 20 20 00 0C 98 4D 66 DE 0C 19 01	PCST   ...Mf....
+00 00 08 43 46 47 44 0C D7 F6 66 00 08 5C 50 44	...CFGD...f..\PD
+43 30 0C 00 00 00 80 08 5C 50 44 43 31 0C 00 00	C0......\PDC1...
+00 80 08 5C 50 44 43 32 0C 00 00 00 80 08 5C 50	...\PDC2......\P
+44 43 33 0C 00 00 00 80 08 5C 50 44 43 34 0C 00	DC3......\PDC4..
+00 00 80 08 5C 50 44 43 35 0C 00 00 00 80 08 5C	....\PDC5......\
+50 44 43 36 0C 00 00 00 80 08 5C 50 44 43 37 0C	PDC6......\PDC7.
+00 00 00 80 08 5C 53 44 54 4C 00 10 48 0A 5C 5F	.....\SDTL..H.\_
+50 52 5F 5B 80 50 50 4D 54 00 0C 18 5E 7E DE 0B	PR_[.PPMT...^~..
+29 00 5B 81 40 09 50 50 4D 54 10 50 47 52 56 08	).[.@.PPMT.PGRV.
+00 28 41 43 52 54 08 41 50 53 56 08 41 41 43 30	.(ACRT.APSV.AAC0
+08 43 50 49 44 20 43 50 50 43 08 43 43 54 50 08	.CPID CPPC.CCTP.
+43 4C 56 4C 08 43 42 4D 49 08 50 4C 31 30 10 50	CLVL.CBMI.PL10.P
+4C 32 30 10 50 4C 57 30 08 43 54 43 30 08 54 41	L20.PLW0.CTC0.TA
+52 30 08 50 50 43 30 08 50 4C 31 31 10 50 4C 32	R0.PPC0.PL11.PL2
+31 10 50 4C 57 31 08 43 54 43 31 08 54 41 52 31	1.PLW1.CTC1.TAR1
+08 50 50 43 31 08 50 4C 31 32 10 50 4C 32 32 10	.PPC1.PL12.PL22.
+50 4C 57 32 08 43 54 43 32 08 54 41 52 32 08 50	PLW2.CTC2.TAR2.P
+50 43 32 08 10 4F 22 5C 2E 5F 50 52 5F 43 50 55	PC2..O"\._PR_CPU
+30 08 48 49 30 5F 00 08 48 43 30 5F 00 14 28 5F	0.HI0_..HC0_..(_
+50 44 43 01 70 43 50 50 43 5C 2F 03 5F 50 52 5F	PDC.pCPPC\/._PR_
+43 50 55 30 5F 50 50 43 70 43 50 44 43 68 60 47	CPU0_PPCpCPDCh`G
+43 41 50 60 A4 60 14 17 5F 4F 53 43 04 70 43 4F	CAP`.`.._OSC.pCO
+53 43 68 69 6A 6B 60 47 43 41 50 60 A4 60 14 48	SChijk`GCAP`.`.H
+06 43 50 44 43 01 8A 68 00 52 45 56 53 8A 68 0A	.CPDC..h.REVS.h.
+04 53 49 5A 45 70 87 68 60 70 74 60 0A 08 00 61	.SIZEp.h`pt`...a
+5B 13 68 0A 40 77 61 0A 08 00 54 45 4D 50 08 53	[.h.@wa...TEMP.S
+54 53 30 11 07 0A 04 00 00 00 00 73 53 54 53 30	TS0........sSTS0
+54 45 4D 50 62 A4 43 4F 53 43 11 13 0A 10 16 A6	TEMPb.COSC......
+77 40 0C 29 BE 47 9E BD D8 70 58 71 39 53 52 45	w@.).G...pXq9SRE
+56 53 53 49 5A 45 62 14 4D 0B 43 4F 53 43 04 8A	VSSIZEb.M.COSC..
+6B 00 53 54 53 30 8A 6B 0A 04 43 41 50 30 8A 68	k.STS0.k..CAP0.h
+00 49 49 44 30 8A 68 0A 04 49 49 44 31 8A 68 0A	.IID0.h..IID1.h.
+08 49 49 44 32 8A 68 0A 0C 49 49 44 33 08 55 49	.IID2.h..IID3.UI
+44 30 11 13 0A 10 16 A6 77 40 0C 29 BE 47 9E BD	D0......w@.).G..
+D8 70 58 71 39 53 8A 55 49 44 30 00 45 49 44 30	.pXq9S.UID0.EID0
+8A 55 49 44 30 0A 04 45 49 44 31 8A 55 49 44 30	.UID0..EID1.UID0
+0A 08 45 49 44 32 8A 55 49 44 30 0A 0C 45 49 44	..EID2.UID0..EID
+33 A0 32 92 90 90 93 49 49 44 30 45 49 44 30 93	3.2....IID0EID0.
+49 49 44 31 45 49 44 31 90 93 49 49 44 32 45 49	IID1EID1..IID2EI
+44 32 93 49 49 44 33 45 49 44 33 70 0A 06 53 54	D2.IID3EID3p..ST
+53 30 A4 6B A0 0E 92 93 69 01 70 0A 0A 53 54 53	S0.k....i.p..STS
+30 A4 6B A4 6B 14 4E 0A 47 43 41 50 01 8A 68 00	0.k.k.N.GCAP..h.
+53 54 53 30 8A 68 0A 04 43 41 50 30 A0 12 91 93	STS0.h..CAP0....
+53 54 53 30 0A 06 93 53 54 53 30 0A 0A A4 00 A0	STS0...STS0.....
+16 7B 53 54 53 30 01 00 7B 43 41 50 30 0B FF 0B	.{STS0..{CAP0...
+43 41 50 30 A4 00 7D 7B 50 44 43 30 0C FF FF FF	CAP0..}{PDC0....
+7F 00 43 41 50 30 50 44 43 30 A0 47 05 7B 43 46	..CAP0PDC0.G.{CF
+47 44 0A 3E 00 A0 4C 04 90 90 7B 43 46 47 44 0B	GD.>..L...{CFGD.
+00 04 00 7B 50 44 43 30 0A 18 00 92 7B 53 44 54	...{PDC0....{SDT
+4C 0A 02 00 7D 53 44 54 4C 0A 02 53 44 54 4C 5B	L...}SDTL..SDTL[
+80 43 53 54 30 00 83 88 53 53 44 54 0A 07 00 83	.CST0...SSDT....
+88 53 53 44 54 0A 08 00 5B 20 43 53 54 30 48 43	.SSDT...[ CST0HC
+30 5F A4 00 10 4F 16 5C 2E 5F 50 52 5F 43 50 55	0_...O.\._PR_CPU
+31 08 48 49 31 5F 00 08 48 43 31 5F 00 14 1F 5F	1.HI1_..HC1_..._
+50 44 43 01 70 5C 2F 03 5F 50 52 5F 43 50 55 30	PDC.p\/._PR_CPU0
+43 50 44 43 68 60 47 43 41 50 60 A4 60 14 22 5F	CPDCh`GCAP`.`."_
+4F 53 43 04 70 5C 2F 03 5F 50 52 5F 43 50 55 30	OSC.p\/._PR_CPU0
+43 4F 53 43 68 69 6A 6B 60 47 43 41 50 60 A4 60	COSChijk`GCAP`.`
+14 4E 07 47 43 41 50 01 8A 68 00 53 54 53 31 8A	.N.GCAP..h.STS1.
+68 0A 04 43 41 50 31 A0 12 91 93 53 54 53 31 0A	h..CAP1....STS1.
+06 93 53 54 53 31 0A 0A A4 00 A0 16 7B 53 54 53	..STS1......{STS
+31 01 00 7B 43 41 50 31 0B FF 0B 43 41 50 31 A4	1..{CAP1...CAP1.
+00 7D 7B 50 44 43 31 0C FF FF FF 7F 00 43 41 50	.}{PDC1......CAP
+31 50 44 43 31 A0 10 93 7B 50 44 43 31 0A 09 00	1PDC1...{PDC1...
+0A 09 41 50 50 54 A0 0D 7B 50 44 43 31 0A 18 00	..APPT..{PDC1...
+41 50 43 54 70 50 44 43 31 50 44 43 30 A4 00 14	APCTpPDC1PDC0...
+4A 04 41 50 43 54 00 A0 42 04 90 7B 43 46 47 44	J.APCT..B..{CFGD
+0A 2E 00 92 7B 53 44 54 4C 0A 20 00 7D 53 44 54	....{SDTL. .}SDT
+4C 0A 20 53 44 54 4C 5B 80 43 53 54 31 00 83 88	L. SDTL[.CST1...
+53 53 44 54 0A 0A 00 83 88 53 53 44 54 0A 0B 00	SSDT.....SSDT...
+5B 20 43 53 54 31 48 43 31 5F 14 49 04 41 50 50	[ CST1HC1_.I.APP
+54 00 A0 41 04 90 7B 43 46 47 44 01 00 92 7B 53	T..A..{CFGD...{S
+44 54 4C 0A 10 00 7D 53 44 54 4C 0A 10 53 44 54	DTL...}SDTL..SDT
+4C 5B 80 49 53 54 31 00 83 88 53 53 44 54 0A 04	L[.IST1...SSDT..
+00 83 88 53 53 44 54 0A 05 00 5B 20 49 53 54 31	...SSDT...[ IST1
+48 49 31 5F 10 44 0E 5C 2E 5F 50 52 5F 43 50 55	HI1_.D.\._PR_CPU
+32 14 1F 5F 50 44 43 01 70 5C 2F 03 5F 50 52 5F	2.._PDC.p\/._PR_
+43 50 55 30 43 50 44 43 68 60 47 43 41 50 60 A4	CPU0CPDCh`GCAP`.
+60 14 22 5F 4F 53 43 04 70 5C 2F 03 5F 50 52 5F	`."_OSC.p\/._PR_
+43 50 55 30 43 4F 53 43 68 69 6A 6B 60 47 43 41	CPU0COSChijk`GCA
+50 60 A4 60 14 44 09 47 43 41 50 01 8A 68 00 53	P`.`.D.GCAP..h.S
+54 53 32 8A 68 0A 04 43 41 50 32 A0 12 91 93 53	TS2.h..CAP2....S
+54 53 32 0A 06 93 53 54 53 32 0A 0A A4 00 A0 16	TS2...STS2......
+7B 53 54 53 32 01 00 7B 43 41 50 32 0B FF 0B 43	{STS2..{CAP2...C
+41 50 32 A4 00 7D 7B 50 44 43 32 0C FF FF FF 7F	AP2..}{PDC2.....
+00 43 41 50 32 50 44 43 32 A0 1B 93 7B 50 44 43	.CAP2PDC2...{PDC
+32 0A 09 00 0A 09 5C 2F 03 5F 50 52 5F 43 50 55	2.....\/._PR_CPU
+31 41 50 50 54 A0 18 7B 50 44 43 32 0A 18 00 5C	1APPT..{PDC2...\
+2F 03 5F 50 52 5F 43 50 55 31 41 50 43 54 70 50	/._PR_CPU1APCTpP
+44 43 32 50 44 43 30 A4 00 10 44 0E 5C 2E 5F 50	DC2PDC0...D.\._P
+52 5F 43 50 55 33 14 1F 5F 50 44 43 01 70 5C 2F	R_CPU3.._PDC.p\/
+03 5F 50 52 5F 43 50 55 30 43 50 44 43 68 60 47	._PR_CPU0CPDCh`G
+43 41 50 60 A4 60 14 22 5F 4F 53 43 04 70 5C 2F	CAP`.`."_OSC.p\/
+03 5F 50 52 5F 43 50 55 30 43 4F 53 43 68 69 6A	._PR_CPU0COSChij
+6B 60 47 43 41 50 60 A4 60 14 44 09 47 43 41 50	k`GCAP`.`.D.GCAP
+01 8A 68 00 53 54 53 33 8A 68 0A 04 43 41 50 33	..h.STS3.h..CAP3
+A0 12 91 93 53 54 53 33 0A 06 93 53 54 53 33 0A	....STS3...STS3.
+0A A4 00 A0 16 7B 53 54 53 33 01 00 7B 43 41 50	.....{STS3..{CAP
+33 0B FF 0B 43 41 50 33 A4 00 7D 7B 50 44 43 33	3...CAP3..}{PDC3
+0C FF FF FF 7F 00 43 41 50 33 50 44 43 33 A0 1B	......CAP3PDC3..
+93 7B 50 44 43 33 0A 09 00 0A 09 5C 2F 03 5F 50	.{PDC3.....\/._P
+52 5F 43 50 55 31 41 50 50 54 A0 18 7B 50 44 43	R_CPU1APPT..{PDC
+33 0A 18 00 5C 2F 03 5F 50 52 5F 43 50 55 31 41	3...\/._PR_CPU1A
+50 43 54 70 50 44 43 33 50 44 43 30 A4 00 10 44	PCTpPDC3PDC0...D
+0E 5C 2E 5F 50 52 5F 43 50 55 34 14 1F 5F 50 44	.\._PR_CPU4.._PD
+43 01 70 5C 2F 03 5F 50 52 5F 43 50 55 30 43 50	C.p\/._PR_CPU0CP
+44 43 68 60 47 43 41 50 60 A4 60 14 22 5F 4F 53	DCh`GCAP`.`."_OS
+43 04 70 5C 2F 03 5F 50 52 5F 43 50 55 30 43 4F	C.p\/._PR_CPU0CO
+53 43 68 69 6A 6B 60 47 43 41 50 60 A4 60 14 44	SChijk`GCAP`.`.D
+09 47 43 41 50 01 8A 68 00 53 54 53 34 8A 68 0A	.GCAP..h.STS4.h.
+04 43 41 50 34 A0 12 91 93 53 54 53 34 0A 06 93	.CAP4....STS4...
+53 54 53 34 0A 0A A4 00 A0 16 7B 53 54 53 34 01	STS4......{STS4.
+00 7B 43 41 50 34 0B FF 0B 43 41 50 34 A4 00 7D	.{CAP4...CAP4..}
+7B 50 44 43 34 0C FF FF FF 7F 00 43 41 50 34 50	{PDC4......CAP4P
+44 43 34 A0 1B 93 7B 50 44 43 34 0A 09 00 0A 09	DC4...{PDC4.....
+5C 2F 03 5F 50 52 5F 43 50 55 31 41 50 50 54 A0	\/._PR_CPU1APPT.
+18 7B 50 44 43 34 0A 18 00 5C 2F 03 5F 50 52 5F	.{PDC4...\/._PR_
+43 50 55 31 41 50 43 54 70 50 44 43 34 50 44 43	CPU1APCTpPDC4PDC
+30 A4 00 10 44 0E 5C 2E 5F 50 52 5F 43 50 55 35	0...D.\._PR_CPU5
+14 1F 5F 50 44 43 01 70 5C 2F 03 5F 50 52 5F 43	.._PDC.p\/._PR_C
+50 55 30 43 50 44 43 68 60 47 43 41 50 60 A4 60	PU0CPDCh`GCAP`.`
+14 22 5F 4F 53 43 04 70 5C 2F 03 5F 50 52 5F 43	."_OSC.p\/._PR_C
+50 55 30 43 4F 53 43 68 69 6A 6B 60 47 43 41 50	PU0COSChijk`GCAP
+60 A4 60 14 44 09 47 43 41 50 01 8A 68 00 53 54	`.`.D.GCAP..h.ST
+53 35 8A 68 0A 04 43 41 50 35 A0 12 91 93 53 54	S5.h..CAP5....ST
+53 35 0A 06 93 53 54 53 35 0A 0A A4 00 A0 16 7B	S5...STS5......{
+53 54 53 35 01 00 7B 43 41 50 35 0B FF 0B 43 41	STS5..{CAP5...CA
+50 35 A4 00 7D 7B 50 44 43 35 0C FF FF FF 7F 00	P5..}{PDC5......
+43 41 50 35 50 44 43 35 A0 1B 93 7B 50 44 43 35	CAP5PDC5...{PDC5
+0A 09 00 0A 09 5C 2F 03 5F 50 52 5F 43 50 55 31	.....\/._PR_CPU1
+41 50 50 54 A0 18 7B 50 44 43 35 0A 18 00 5C 2F	APPT..{PDC5...\/
+03 5F 50 52 5F 43 50 55 31 41 50 43 54 70 50 44	._PR_CPU1APCTpPD
+43 35 50 44 43 30 A4 00 10 44 0E 5C 2E 5F 50 52	C5PDC0...D.\._PR
+5F 43 50 55 36 14 1F 5F 50 44 43 01 70 5C 2F 03	_CPU6.._PDC.p\/.
+5F 50 52 5F 43 50 55 30 43 50 44 43 68 60 47 43	_PR_CPU0CPDCh`GC
+41 50 60 A4 60 14 22 5F 4F 53 43 04 70 5C 2F 03	AP`.`."_OSC.p\/.
+5F 50 52 5F 43 50 55 30 43 4F 53 43 68 69 6A 6B	_PR_CPU0COSChijk
+60 47 43 41 50 60 A4 60 14 44 09 47 43 41 50 01	`GCAP`.`.D.GCAP.
+8A 68 00 53 54 53 36 8A 68 0A 04 43 41 50 36 A0	.h.STS6.h..CAP6.
+12 91 93 53 54 53 36 0A 06 93 53 54 53 36 0A 0A	...STS6...STS6..
+A4 00 A0 16 7B 53 54 53 36 01 00 7B 43 41 50 36	....{STS6..{CAP6
+0B FF 0B 43 41 50 36 A4 00 7D 7B 50 44 43 36 0C	...CAP6..}{PDC6.
+FF FF FF 7F 00 43 41 50 36 50 44 43 36 A0 1B 93	.....CAP6PDC6...
+7B 50 44 43 36 0A 09 00 0A 09 5C 2F 03 5F 50 52	{PDC6.....\/._PR
+5F 43 50 55 31 41 50 50 54 A0 18 7B 50 44 43 36	_CPU1APPT..{PDC6
+0A 18 00 5C 2F 03 5F 50 52 5F 43 50 55 31 41 50	...\/._PR_CPU1AP
+43 54 70 50 44 43 36 50 44 43 30 A4 00 10 44 0E	CTpPDC6PDC0...D.
+5C 2E 5F 50 52 5F 43 50 55 37 14 1F 5F 50 44 43	\._PR_CPU7.._PDC
+01 70 5C 2F 03 5F 50 52 5F 43 50 55 30 43 50 44	.p\/._PR_CPU0CPD
+43 68 60 47 43 41 50 60 A4 60 14 22 5F 4F 53 43	Ch`GCAP`.`."_OSC
+04 70 5C 2F 03 5F 50 52 5F 43 50 55 30 43 4F 53	.p\/._PR_CPU0COS
+43 68 69 6A 6B 60 47 43 41 50 60 A4 60 14 44 09	Chijk`GCAP`.`.D.
+47 43 41 50 01 8A 68 00 53 54 53 37 8A 68 0A 04	GCAP..h.STS7.h..
+43 41 50 37 A0 12 91 93 53 54 53 37 0A 06 93 53	CAP7....STS7...S
+54 53 37 0A 0A A4 00 A0 16 7B 53 54 53 37 01 00	TS7......{STS7..
+7B 43 41 50 37 0B FF 0B 43 41 50 37 A4 00 7D 7B	{CAP7...CAP7..}{
+50 44 43 37 0C FF FF FF 7F 00 43 41 50 37 50 44	PDC7......CAP7PD
+43 37 A0 1B 93 7B 50 44 43 37 0A 09 00 0A 09 5C	C7...{PDC7.....\
+2F 03 5F 50 52 5F 43 50 55 31 41 50 50 54 A0 18	/._PR_CPU1APPT..
+7B 50 44 43 37 0A 18 00 5C 2F 03 5F 50 52 5F 43	{PDC7...\/._PR_C
+50 55 31 41 50 43 54 70 50 44 43 37 50 44 43 30	PU1APCTpPDC7PDC0
+A4 00                                          	..              
+
+Signature	"SSDT"
+Length	0x00000A92 (2706)
+Revision	0x01 (1)
+Checksum	0x78 (120)
+OEM ID	"PmRef"
+OEM Table ID	"CpuPm"
+OEM Revision	0x00003000 (12288)
+Creator ID	"INTL"
+Creator Revision	0x20051117 (537202967)
+DefinitionBlock ("SSDT.AML", "SSDT", 0x01, "PmRef", "CpuPm", 0x00003000)
+{
+	Scope(\)
+	{
+		Name(SSDT, Package(12)
+		{
+			"CPU0IST ", 0xDC8CA018, 0x000009AA, "APIST   ", 0xDE666A98, 0x00000303,
+			"CPU0CST ", 0xDE665018, 0x0000083B, "APCST   ", 0xDE664D98, 0x00000119
+		})
+		Name(CFGD, 0x0066F6D7)
+		Name(\PDC0, 0x80000000)
+		Name(\PDC1, 0x80000000)
+		Name(\PDC2, 0x80000000)
+		Name(\PDC3, 0x80000000)
+		Name(\PDC4, 0x80000000)
+		Name(\PDC5, 0x80000000)
+		Name(\PDC6, 0x80000000)
+		Name(\PDC7, 0x80000000)
+		Name(\SDTL, Zero)
+	}
+	Scope(\_PR)
+	{
+		OperationRegion(PPMT, SystemMemory, 0xDE7E5E18, 0x0029)
+		Field(PPMT, AnyAcc, Lock, Preserve)
+		{
+			PGRV, 8,
+			Offset(0x6),	//Offset(6),
+			ACRT, 8,
+			APSV, 8,
+			AAC0, 8,
+			CPID, 32,
+			CPPC, 8,
+			CCTP, 8,
+			CLVL, 8,
+			CBMI, 8,
+			PL10, 16,
+			PL20, 16,
+			PLW0, 8,
+			CTC0, 8,
+			TAR0, 8,
+			PPC0, 8,
+			PL11, 16,
+			PL21, 16,
+			PLW1, 8,
+			CTC1, 8,
+			TAR1, 8,
+			PPC1, 8,
+			PL12, 16,
+			PL22, 16,
+			PLW2, 8,
+			CTC2, 8,
+			TAR2, 8,
+			PPC2, 8,
+		}
+	}
+	Scope(\_PR.CPU0)
+	{
+		Name(HI0, Zero)
+		Name(HC0, Zero)
+		Method(_PDC, 1, NotSerialized)
+		{
+			Store(CPPC, \_PR.CPU0._PPC)
+			Store(CPDC(Arg0), Local0)
+			GCAP(Local0)
+			Return(Local0)
+		}
+		Method(_OSC, 4, NotSerialized)
+		{
+			Store(COSC(Arg0, Arg1, Arg2, Arg3), Local0)
+			GCAP(Local0)
+			Return(Local0)
+		}
+		Method(CPDC, 1, NotSerialized)
+		{
+			CreateDWordField(Arg0, Zero, REVS)
+			CreateDWordField(Arg0, 0x04, SIZE)
+			Store(SizeOf(Arg0), Local0)
+			Store(Subtract(Local0, 0x08), Local1)
+			CreateField(Arg0,0x40,Multiply(Local1, 0x08),TEMP)
+			Name(STS0, Buffer(0x04)
+			{
+				0x00, 0x00, 0x00, 0x00
+			})
+			Concatenate(STS0, TEMP, Local2)
+			Return(COSC(Buffer(0x10)
+			{
+				0x16, 0xA6, 0x77, 0x40, 0x0C, 0x29, 0xBE, 0x47, 
+				0x9E, 0xBD, 0xD8, 0x70, 0x58, 0x71, 0x39, 0x53
+			}, REVS, SIZE, Local2))
+		}
+		Method(COSC, 4, NotSerialized)
+		{
+			CreateDWordField(Arg3, Zero, STS0)
+			CreateDWordField(Arg3, 0x04, CAP0)
+			CreateDWordField(Arg0, Zero, IID0)
+			CreateDWordField(Arg0, 0x04, IID1)
+			CreateDWordField(Arg0, 0x08, IID2)
+			CreateDWordField(Arg0, 0x0C, IID3)
+			Name(UID0, Buffer(0x10)
+			{
+				0x16, 0xA6, 0x77, 0x40, 0x0C, 0x29, 0xBE, 0x47, 
+				0x9E, 0xBD, 0xD8, 0x70, 0x58, 0x71, 0x39, 0x53
+			})
+			CreateDWordField(UID0, Zero, EID0)
+			CreateDWordField(UID0, 0x04, EID1)
+			CreateDWordField(UID0, 0x08, EID2)
+			CreateDWordField(UID0, 0x0C, EID3)
+			If(LNot(LAnd(LAnd(LEqual(IID0, EID0), LEqual(IID1, EID1)), LAnd(LEqual(IID2, EID2), LEqual(IID3, EID3)))))
+			{
+				Store(0x06, STS0)
+				Return(Arg3)
+			}
+			If(LNotEqual(Arg1, One))
+			{
+				Store(0x0A, STS0)
+				Return(Arg3)
+			}
+			Return(Arg3)
+		}
+		Method(GCAP, 1, NotSerialized)
+		{
+			CreateDWordField(Arg0, Zero, STS0)
+			CreateDWordField(Arg0, 0x04, CAP0)
+			If(LOr(LEqual(STS0, 0x06), LEqual(STS0, 0x0A)))
+			{
+				Return(Zero)
+			}
+			If(And(STS0, One))
+			{
+				And(CAP0, 0x0BFF, CAP0)
+				Return(Zero)
+			}
+			Or(And(PDC0, 0x7FFFFFFF), CAP0, PDC0)
+			If(And(CFGD, 0x3E))
+			{
+				If(LAnd(LAnd(And(CFGD, 0x0400), And(PDC0, 0x18)), LNot(And(SDTL, 0x02))))
+				{
+					Or(SDTL, 0x02, SDTL)
+					OperationRegion(CST0, SystemMemory, DerefOf(Index(SSDT, 0x07)), DerefOf(Index(SSDT, 0x08)))
+					Load(CST0, HC0)
+				}
+			}
+			Return(Zero)
+		}
+	}
+	Scope(\_PR.CPU1)
+	{
+		Name(HI1, Zero)
+		Name(HC1, Zero)
+		Method(_PDC, 1, NotSerialized)
+		{
+			Store(\_PR.CPU0.CPDC(Arg0), Local0)
+			GCAP(Local0)
+			Return(Local0)
+		}
+		Method(_OSC, 4, NotSerialized)
+		{
+			Store(\_PR.CPU0.COSC(Arg0, Arg1, Arg2, Arg3), Local0)
+			GCAP(Local0)
+			Return(Local0)
+		}
+		Method(GCAP, 1, NotSerialized)
+		{
+			CreateDWordField(Arg0, Zero, STS1)
+			CreateDWordField(Arg0, 0x04, CAP1)
+			If(LOr(LEqual(STS1, 0x06), LEqual(STS1, 0x0A)))
+			{
+				Return(Zero)
+			}
+			If(And(STS1, One))
+			{
+				And(CAP1, 0x0BFF, CAP1)
+				Return(Zero)
+			}
+			Or(And(PDC1, 0x7FFFFFFF), CAP1, PDC1)
+			If(LEqual(And(PDC1, 0x09), 0x09))
+			{
+				APPT()
+			}
+			If(And(PDC1, 0x18))
+			{
+				APCT()
+			}
+			Store(PDC1, PDC0)
+			Return(Zero)
+		}
+		Method(APCT, 0, NotSerialized)
+		{
+			If(LAnd(And(CFGD, 0x2E), LNot(And(SDTL, 0x20))))
+			{
+				Or(SDTL, 0x20, SDTL)
+				OperationRegion(CST1, SystemMemory, DerefOf(Index(SSDT, 0x0A)), DerefOf(Index(SSDT, 0x0B)))
+				Load(CST1, HC1)
+			}
+		}
+		Method(APPT, 0, NotSerialized)
+		{
+			If(LAnd(And(CFGD, One), LNot(And(SDTL, 0x10))))
+			{
+				Or(SDTL, 0x10, SDTL)
+				OperationRegion(IST1, SystemMemory, DerefOf(Index(SSDT, 0x04)), DerefOf(Index(SSDT, 0x05)))
+				Load(IST1, HI1)
+			}
+		}
+	}
+	Scope(\_PR.CPU2)
+	{
+		Method(_PDC, 1, NotSerialized)
+		{
+			Store(\_PR.CPU0.CPDC(Arg0), Local0)
+			GCAP(Local0)
+			Return(Local0)
+		}
+		Method(_OSC, 4, NotSerialized)
+		{
+			Store(\_PR.CPU0.COSC(Arg0, Arg1, Arg2, Arg3), Local0)
+			GCAP(Local0)
+			Return(Local0)
+		}
+		Method(GCAP, 1, NotSerialized)
+		{
+			CreateDWordField(Arg0, Zero, STS2)
+			CreateDWordField(Arg0, 0x04, CAP2)
+			If(LOr(LEqual(STS2, 0x06), LEqual(STS2, 0x0A)))
+			{
+				Return(Zero)
+			}
+			If(And(STS2, One))
+			{
+				And(CAP2, 0x0BFF, CAP2)
+				Return(Zero)
+			}
+			Or(And(PDC2, 0x7FFFFFFF), CAP2, PDC2)
+			If(LEqual(And(PDC2, 0x09), 0x09))
+			{
+				\_PR.CPU1.APPT()
+			}
+			If(And(PDC2, 0x18))
+			{
+				\_PR.CPU1.APCT()
+			}
+			Store(PDC2, PDC0)
+			Return(Zero)
+		}
+	}
+	Scope(\_PR.CPU3)
+	{
+		Method(_PDC, 1, NotSerialized)
+		{
+			Store(\_PR.CPU0.CPDC(Arg0), Local0)
+			GCAP(Local0)
+			Return(Local0)
+		}
+		Method(_OSC, 4, NotSerialized)
+		{
+			Store(\_PR.CPU0.COSC(Arg0, Arg1, Arg2, Arg3), Local0)
+			GCAP(Local0)
+			Return(Local0)
+		}
+		Method(GCAP, 1, NotSerialized)
+		{
+			CreateDWordField(Arg0, Zero, STS3)
+			CreateDWordField(Arg0, 0x04, CAP3)
+			If(LOr(LEqual(STS3, 0x06), LEqual(STS3, 0x0A)))
+			{
+				Return(Zero)
+			}
+			If(And(STS3, One))
+			{
+				And(CAP3, 0x0BFF, CAP3)
+				Return(Zero)
+			}
+			Or(And(PDC3, 0x7FFFFFFF), CAP3, PDC3)
+			If(LEqual(And(PDC3, 0x09), 0x09))
+			{
+				\_PR.CPU1.APPT()
+			}
+			If(And(PDC3, 0x18))
+			{
+				\_PR.CPU1.APCT()
+			}
+			Store(PDC3, PDC0)
+			Return(Zero)
+		}
+	}
+	Scope(\_PR.CPU4)
+	{
+		Method(_PDC, 1, NotSerialized)
+		{
+			Store(\_PR.CPU0.CPDC(Arg0), Local0)
+			GCAP(Local0)
+			Return(Local0)
+		}
+		Method(_OSC, 4, NotSerialized)
+		{
+			Store(\_PR.CPU0.COSC(Arg0, Arg1, Arg2, Arg3), Local0)
+			GCAP(Local0)
+			Return(Local0)
+		}
+		Method(GCAP, 1, NotSerialized)
+		{
+			CreateDWordField(Arg0, Zero, STS4)
+			CreateDWordField(Arg0, 0x04, CAP4)
+			If(LOr(LEqual(STS4, 0x06), LEqual(STS4, 0x0A)))
+			{
+				Return(Zero)
+			}
+			If(And(STS4, One))
+			{
+				And(CAP4, 0x0BFF, CAP4)
+				Return(Zero)
+			}
+			Or(And(PDC4, 0x7FFFFFFF), CAP4, PDC4)
+			If(LEqual(And(PDC4, 0x09), 0x09))
+			{
+				\_PR.CPU1.APPT()
+			}
+			If(And(PDC4, 0x18))
+			{
+				\_PR.CPU1.APCT()
+			}
+			Store(PDC4, PDC0)
+			Return(Zero)
+		}
+	}
+	Scope(\_PR.CPU5)
+	{
+		Method(_PDC, 1, NotSerialized)
+		{
+			Store(\_PR.CPU0.CPDC(Arg0), Local0)
+			GCAP(Local0)
+			Return(Local0)
+		}
+		Method(_OSC, 4, NotSerialized)
+		{
+			Store(\_PR.CPU0.COSC(Arg0, Arg1, Arg2, Arg3), Local0)
+			GCAP(Local0)
+			Return(Local0)
+		}
+		Method(GCAP, 1, NotSerialized)
+		{
+			CreateDWordField(Arg0, Zero, STS5)
+			CreateDWordField(Arg0, 0x04, CAP5)
+			If(LOr(LEqual(STS5, 0x06), LEqual(STS5, 0x0A)))
+			{
+				Return(Zero)
+			}
+			If(And(STS5, One))
+			{
+				And(CAP5, 0x0BFF, CAP5)
+				Return(Zero)
+			}
+			Or(And(PDC5, 0x7FFFFFFF), CAP5, PDC5)
+			If(LEqual(And(PDC5, 0x09), 0x09))
+			{
+				\_PR.CPU1.APPT()
+			}
+			If(And(PDC5, 0x18))
+			{
+				\_PR.CPU1.APCT()
+			}
+			Store(PDC5, PDC0)
+			Return(Zero)
+		}
+	}
+	Scope(\_PR.CPU6)
+	{
+		Method(_PDC, 1, NotSerialized)
+		{
+			Store(\_PR.CPU0.CPDC(Arg0), Local0)
+			GCAP(Local0)
+			Return(Local0)
+		}
+		Method(_OSC, 4, NotSerialized)
+		{
+			Store(\_PR.CPU0.COSC(Arg0, Arg1, Arg2, Arg3), Local0)
+			GCAP(Local0)
+			Return(Local0)
+		}
+		Method(GCAP, 1, NotSerialized)
+		{
+			CreateDWordField(Arg0, Zero, STS6)
+			CreateDWordField(Arg0, 0x04, CAP6)
+			If(LOr(LEqual(STS6, 0x06), LEqual(STS6, 0x0A)))
+			{
+				Return(Zero)
+			}
+			If(And(STS6, One))
+			{
+				And(CAP6, 0x0BFF, CAP6)
+				Return(Zero)
+			}
+			Or(And(PDC6, 0x7FFFFFFF), CAP6, PDC6)
+			If(LEqual(And(PDC6, 0x09), 0x09))
+			{
+				\_PR.CPU1.APPT()
+			}
+			If(And(PDC6, 0x18))
+			{
+				\_PR.CPU1.APCT()
+			}
+			Store(PDC6, PDC0)
+			Return(Zero)
+		}
+	}
+	Scope(\_PR.CPU7)
+	{
+		Method(_PDC, 1, NotSerialized)
+		{
+			Store(\_PR.CPU0.CPDC(Arg0), Local0)
+			GCAP(Local0)
+			Return(Local0)
+		}
+		Method(_OSC, 4, NotSerialized)
+		{
+			Store(\_PR.CPU0.COSC(Arg0, Arg1, Arg2, Arg3), Local0)
+			GCAP(Local0)
+			Return(Local0)
+		}
+		Method(GCAP, 1, NotSerialized)
+		{
+			CreateDWordField(Arg0, Zero, STS7)
+			CreateDWordField(Arg0, 0x04, CAP7)
+			If(LOr(LEqual(STS7, 0x06), LEqual(STS7, 0x0A)))
+			{
+				Return(Zero)
+			}
+			If(And(STS7, One))
+			{
+				And(CAP7, 0x0BFF, CAP7)
+				Return(Zero)
+			}
+			Or(And(PDC7, 0x7FFFFFFF), CAP7, PDC7)
+			If(LEqual(And(PDC7, 0x09), 0x09))
+			{
+				\_PR.CPU1.APPT()
+			}
+			If(And(PDC7, 0x18))
+			{
+				\_PR.CPU1.APCT()
+			}
+			Store(PDC7, PDC0)
+			Return(Zero)
+		}
+	}
+}
